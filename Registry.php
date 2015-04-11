@@ -137,11 +137,7 @@ class Registry {
 
         $key = (string) $key;
 
-        if ($key != '' && array_key_exists($key, self::$data)) {
-            return true;
-        }
-
-        return false;
+        return $key != '' && array_key_exists($key, self::$data);
     }
 
     public function delete($key) {
