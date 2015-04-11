@@ -3,6 +3,7 @@ Registry library for CodeIgniter
 ================================
 
 You may use this library for storing and accessing application-level global data.
+This library is intended to be compatible with CI 2.x and CI 3.x.
 
 Installation
 ------------
@@ -81,5 +82,5 @@ var_dump($ci->registry->get_all());
 License Information
 -------------------
 
-Author: Ivan Tcholakov ivantcholakov@gmail.com, 2014.  
+Author: Ivan Tcholakov ivantcholakov@gmail.com, 2014-2015.  
 License: The MIT License (MIT), http://opensource.org/licenses/MIT

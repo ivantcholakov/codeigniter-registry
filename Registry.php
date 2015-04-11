@@ -4,6 +4,7 @@
  * Registry library for CodeIgniter
  *
  * You may use this library for storing and accessing application-level global data.
+ * This library is intended to be compatible with CI 2.x and CI 3.x.
  *
  * Installation:
  *
@@ -75,7 +76,8 @@
  *
  * //---------------------------------------------------------------------------
  *
- * @author Ivan Tcholakov <ivantcholakov@gmail.com>, 2014
+ * @version: 1.0.0
+ * @author Ivan Tcholakov <ivantcholakov@gmail.com>, 2014-2015
  * @license The MIT License, http://opensource.org/licenses/MIT
  *
  * Code repository: https://github.com/ivantcholakov/codeigniter-registry
@@ -87,7 +89,7 @@ class Registry {
 
     public function __construct() {
 
-        log_message('debug', 'Registry class initialized');
+        log_message('info', 'Registry class initialized');
     }
 
     public function get($key) {
